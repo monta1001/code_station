@@ -1,11 +1,10 @@
 <template>
-  <div class="page">
-    <h1>عملاؤنا</h1>
+  <div class="page clients">
+    <h2>عملاؤنا</h2>
     <ul>
-      <li>شركة ABC</li>
-      <li>شركة XYZ</li>
-      <li>شركة المستقبل</li>
-      <li>شركة التقنية الحديثة</li>
+      <li>عميل 1</li>
+      <li>عميل 2</li>
+      <li>عميل 3</li>
     </ul>
   </div>
 </template>
@@ -15,3 +14,18 @@ export default {
   name: "Clients",
 };
 </script>
+
+<style>
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 10px auto;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+}
+</style>
